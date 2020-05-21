@@ -29,7 +29,7 @@
 - Calico initial IP Pool nat mode:   enabled (default)
 - Calico encapsulation mode: IPIP (CrossSubnet)
 
-### Install Rancher with Calico(OSS)
+## Install Rancher with Calico(OSS)
 
 ### Requirements:
 
@@ -153,7 +153,7 @@ rancher_kubernetes_engine_config:
 windows_prefered_cluster: false
 ```
 
-### Install Rancher with Calico Enterprise
+## Install Rancher with Calico Enterprise
 
 ### Sample Rancher Cluster Config
 
@@ -284,5 +284,5 @@ windows_prefered_cluster: false
 ## References
 
 * [Calico Enterprise Installation on Rancher](https://docs.tigera.io/getting-started/kubernetes/self-managed-on-prem/rancher#create-a-compatible-rancher-cluster)
-* [Calico Inst ]
 * [Calico Enterprise Requirements](https://docs.tigera.io/getting-started/kubernetes/requirements)
+* [Calico IPAM Configuration](https://docs.projectcalico.org/networking/ipam)
